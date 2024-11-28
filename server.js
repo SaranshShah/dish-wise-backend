@@ -7,6 +7,9 @@ import restaurantRoutes from './routes/restaurants.js';
 import dishRoutes from './routes/dishes.js';
 import reviewRoutes from './routes/reviews.js';
 import favoriteRoutes from './routes/favorites.js';
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 const app = express();
 connectDB();

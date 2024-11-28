@@ -5,13 +5,19 @@ import User from '../models/User.js';
 
 const router = express.Router();
 
-// Register
+
+
 router.post('/register', async (req, res) => {
   try {
-    const { name, email, password, preferences } = req.body;
+    const { name, email, password } = req.body;
+
+    // Hash the password
     const hashedPassword = await bcrypt.hash(password, 10);
-    const user = new User({ name, email, password: hashedPassword, preferences });
+
+    // Create a new user
+    const user = new User({ name, email, password: hashedPassword });
     await user.save();
+
     res.status(201).json({ success: true, userId: user._id });
   } catch (error) {
     res.status(500).json({ success: false, error: error.message });
