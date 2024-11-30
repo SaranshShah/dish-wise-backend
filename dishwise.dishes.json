@@ -1,0 +1,111 @@
+[{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c3b"
+  },
+  "menuId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0b3b"
+  },
+  "name": "Beef Taco",
+  "ingredients": [
+    "ground beef",
+    "taco shell",
+    "cheddar cheese",
+    "lettuce",
+    "tomato",
+    "sour cream"
+  ],
+  "tags": [
+    "gluten",
+    "non-vegetarian"
+  ],
+  "price": 5.49,
+  "rating": 4.3
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c5b"
+  },
+  "menuId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0b5b"
+  },
+  "name": "Cheeseburger",
+  "ingredients": [
+    "beef patty",
+    "cheddar cheese",
+    "lettuce",
+    "tomato",
+    "burger bun"
+  ],
+  "tags": [
+    "gluten",
+    "non-vegetarian"
+  ],
+  "price": 8.99,
+  "rating": 4.6
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c1b"
+  },
+  "menuId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0b1b"
+  },
+  "name": "Spaghetti Carbonara",
+  "ingredients": [
+    "spaghetti",
+    "eggs",
+    "pancetta",
+    "Parmesan cheese",
+    "black pepper"
+  ],
+  "tags": [
+    "gluten",
+    "non-vegetarian"
+  ],
+  "price": 18.99,
+  "rating": 4.8
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c2b"
+  },
+  "menuId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0b2b"
+  },
+  "name": "Salmon Nigiri",
+  "ingredients": [
+    "salmon",
+    "rice",
+    "nori",
+    "wasabi"
+  ],
+  "tags": [
+    "gluten-free",
+    "non-vegetarian"
+  ],
+  "price": 12.99,
+  "rating": 4.7
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c4b"
+  },
+  "menuId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0b4b"
+  },
+  "name": "Chicken Tikka Masala",
+  "ingredients": [
+    "chicken",
+    "yogurt",
+    "tomato",
+    "onion",
+    "spices",
+    "cream"
+  ],
+  "tags": [
+    "gluten-free",
+    "non-vegetarian"
+  ],
+  "price": 14.99,
+  "rating": 4.9
+}]

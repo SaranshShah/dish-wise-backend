@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "673ba84e9287604158b18373"
+  },
+  "name": "Saransh Shah",
+  "email": "saranshshahexample.com",
+  "password": "hashed_password",
+  "preferences": {
+    "dietaryRestrictions": [
+      "vegan"
+    ],
+    "cuisinePreference": [
+      "Italian"
+    ],
+    "priceRange": "$$"
+  },
+  "signupDate": {
+    "$date": "2024-11-18T20:49:18.712Z"
+  },
+  "lastLogin": {
+    "$date": "2024-11-18T20:49:18.712Z"
+  }
+}]

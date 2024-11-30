@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0d4b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f4f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c4b"
+  },
+  "rating": 5,
+  "reviewText": "Incredible! This dish had the perfect balance of spices and the chicken was tender. Highly recommend!",
+  "reviewDate": {
+    "$date": "2024-11-10T18:45:00.000Z"
+  },
+  "media": [
+    "https://example.com/images/chicken_tikka.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0d1b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f1f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c1b"
+  },
+  "rating": 5,
+  "reviewText": "Absolutely delicious! The best carbonara I've ever had. The pasta was perfectly cooked and the sauce was creamy and flavorful.",
+  "reviewDate": {
+    "$date": "2024-11-18T15:30:00.000Z"
+  },
+  "media": [
+    "https://example.com/images/carbonara1.jpg",
+    "https://example.com/images/carbonara2.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0d5b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f5f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c5b"
+  },
+  "rating": 4,
+  "reviewText": "Really good burger. The patty was juicy, but the bun was a bit too soft for my taste.",
+  "reviewDate": {
+    "$date": "2024-11-12T20:30:00.000Z"
+  },
+  "media": [
+    "https://example.com/images/cheeseburger.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0d3b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f3f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c3b"
+  },
+  "rating": 4,
+  "reviewText": "Tasty and satisfying! The beef was juicy, but I would have liked a bit more spice.",
+  "reviewDate": {
+    "$date": "2024-11-15T17:10:00.000Z"
+  },
+  "media": [
+    "https://example.com/images/beef_taco.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0d2b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f2f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c2b"
+  },
+  "rating": 4,
+  "reviewText": "Great sushi! The salmon was fresh, but I wish the rice was a bit more seasoned.",
+  "reviewDate": {
+    "$date": "2024-11-17T13:20:00.000Z"
+  },
+  "media": [
+    "https://example.com/images/salmon_nigiri.jpg"
+  ]
+}]

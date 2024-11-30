@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0e4b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f4f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c4b"
+  },
+  "dateAdded": {
+    "$date": "2024-11-10T19:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0e2b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f2f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c2b"
+  },
+  "dateAdded": {
+    "$date": "2024-11-17T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0e1b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f1f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c1b"
+  },
+  "dateAdded": {
+    "$date": "2024-11-18T16:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0e3b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f3f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c3b"
+  },
+  "dateAdded": {
+    "$date": "2024-11-15T18:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64ed32b3c2f64c1a8a7b0e5b"
+  },
+  "userId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0f5f"
+  },
+  "dishId": {
+    "$oid": "64ed32b3c2f64c1a8a7b0c5b"
+  },
+  "dateAdded": {
+    "$date": "2024-11-12T21:00:00.000Z"
+  }
+}]

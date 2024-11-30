@@ -1,12 +1,13 @@
 import mongoose from 'mongoose';
 
-const DishSchema = new mongoose.Schema({
+const dishSchema = new mongoose.Schema({
+  _id: mongoose.Schema.Types.ObjectId,
   name: { type: String, required: true },
-  ingredients: { type: [String], required: true },
-  tags: { type: [String], required: true },
+  ingredients: [String],
+  tags: [String],
   price: { type: Number, required: true },
-  rating: { type: Number, default: 0 },
-  menuId: { type: mongoose.Schema.Types.ObjectId, ref: 'Menu', required: true },
+  rating: { type: Number, required: true },
+  menuId: mongoose.Schema.Types.ObjectId,
 });
 
-export default mongoose.model('Dish', DishSchema);
+export default mongoose.model('Dish', dishSchema);
